@@ -9,6 +9,15 @@ Project template for Game Boy / GBC games written using GBDK.
 * [GNU Make](https://gnuwin32.sourceforge.net/packages/make.htm) - Build system
 tool (installation should only be required on Windows).
 
+### Install GBDK-2020 on Linux
+```bash
+wget https://github.com/gbdk-2020/gbdk-2020/releases/download/4.4.0/gbdk-linux64.tar.gz
+
+tar -xzf gbdk-linux64.tar.gz
+
+mv gbdk ~/gbdk
+```
+
 ### Use Make to Build the ROM
 Update the `MakeFile` or define a shell variable named `GBDK_HOME` pointing to
 the directory where you installed GBDK.
